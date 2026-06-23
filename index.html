@@ -1,0 +1,276 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <style>
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --primary-color: #4a90e2;
+            --correct-color: #48bb78;
+            --incorrect-color: #f56565;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        .quiz-container {
+            background-color: var(--card-bg);
+            width: 100%;
+            max-width: 500px;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        .question-number {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .score {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .option-btn {
+            background-color: #f8f9fa;
+            border: 2px solid #e2e8f0;
+            padding: 1rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background-color: #edf2f7;
+            border-color: var(--primary-color);
+        }
+
+        .option-btn:disabled {
+            cursor: not-allowed;
+        }
+
+        .option-btn.correct {
+            background-color: var(--correct-color);
+            border-color: var(--correct-color);
+            color: white;
+        }
+
+        .option-btn.incorrect {
+            background-color: var(--incorrect-color);
+            border-color: var(--incorrect-color);
+            color: white;
+        }
+
+        #next-btn {
+            display: none;
+            width: 100%;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 1rem;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            transition: background-color 0.2s;
+        }
+
+        #next-btn:hover {
+            background-color: #357abd;
+        }
+
+        #result-container {
+            display: none;
+            text-align: center;
+        }
+
+        .restart-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container" id="quiz-container">
+        <div class="header">
+            <span class="question-number" id="question-number">Pergunta 1 de 0</span>
+            <span class="score" id="score">Pontuação: 0</span>
+        </div>
+        
+        <div class="question-text" id="question-text">Carregando pergunta...</div>
+        
+        <div class="options-container" id="options-container">
+            <!-- As opções serão geradas via JS -->
+        </div>
+        
+        <button id="next-btn" onclick="nextQuestion()">Próxima Pergunta</button>
+    </div>
+
+    <div class="quiz-container" id="result-container">
+        <h2>Fim do Quiz!</h2>
+        <p class="question-text">Sua pontuação final é:</p>
+        <div class="question-text" id="final-score">0 / 0</div>
+        <button class="restart-btn" onclick="restartQuiz()">Reiniciar Quiz</button>
+    </div>
+
+    <script>
+        // 1. Defina suas perguntas e respostas aqui
+        const quizData = [
+            {
+                question: "O que significa a sigla HTML?",
+                options: [
+                    "HyperText Markup Language",
+                    "HyperText Machine Language",
+                    "HyperText Marking Language",
+                    "HighText Markup Language"
+                ],
+                correct: 0 // Índice da resposta correta (0 a 3)
+            },
+            {
+                question: "Qual linguagem é usada para estilizar páginas web?",
+                options: ["Python", "HTML", "CSS", "C++"],
+                correct: 2
+            },
+            {
+                question: "Onde o Git salva as informações de versionamento?",
+                options: ["No navegador", "No HD externo", ".git", ".github"],
+                correct: 2
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let answered = false;
+
+        const questionNumberEl = document.getElementById('question-number');
+        const scoreEl = document.getElementById('score');
+        const questionTextEl = document.getElementById('question-text');
+        const optionsContainerEl = document.getElementById('options-container');
+        const nextBtnEl = document.getElementById('next-btn');
+        const quizContainerEl = document.getElementById('quiz-container');
+        const resultContainerEl = document.getElementById('result-container');
+        const finalScoreEl = document.getElementById('final-score');
+
+        function loadQuestion() {
+            if (currentQuestionIndex >= quizData.length) {
+                showResults();
+                return;
+            }
+
+            answered = false;
+            const currentQuiz = quizData[currentQuestionIndex];
+            
+            questionNumberEl.innerText = `Pergunta ${currentQuestionIndex + 1} de ${quizData.length}`;
+            scoreEl.innerText = `Pontuação: ${score}`;
+            questionTextEl.innerText = currentQuiz.question;
+            
+            optionsContainerEl.innerHTML = '';
+            
+            currentQuiz.options.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.classList.add('option-btn');
+                button.innerText = option;
+                button.onclick = () => selectOption(index, button);
+                optionsContainerEl.appendChild(button);
+            });
+            
+            nextBtnEl.style.display = 'none';
+        }
+
+        function selectOption(selectedIndex, selectedBtn) {
+            if (answered) return;
+            answered = true;
+
+            const currentQuiz = quizData[currentQuestionIndex];
+            const correctIndex = currentQuiz.correct;
+
+            // Desabilita todos os botões após a seleção
+            const buttons = optionsContainerEl.children;
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].disabled = true;
+            }
+
+            // Verifica acerto ou erro
+            if (selectedIndex === correctIndex) {
+                selectedBtn.classList.add('correct');
+                score++;
+                scoreEl.innerText = `Pontuação: ${score}`;
+            } else {
+                selectedBtn.classList.add('incorrect');
+                // Destaca a correta
+                buttons[correctIndex].classList.add('correct');
+            }
+
+            nextBtnEl.style.display = 'block';
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+
+        function showResults() {
+            quizContainerEl.style.display = 'none';
+            resultContainerEl.style.display = 'block';
+            finalScoreEl.innerText = `${score} de ${quizData.length}`;
+        }
+
+        function restartQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            resultContainerEl.style.display = 'none';
+            quizContainerEl.style.display = 'block';
+            loadQuestion();
+        }
+
+        // Inicializa o quiz
+        window.onload = loadQuestion;
+    </script>
+</body>
+</html>
