@@ -1,0 +1,554 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "pergunta": "De acordo com a Lei nº 11.781/2000, qual é o objetivo principal da norma?",
+      "alternativas": [
+        "Regular o processo administrativo no âmbito da Administração Pública Federal.",
+        "Estabelecer normas básicas sobre o processo administrativo na Administração Pública Estadual de Pernambuco.",
+        "Definir exclusivamente os crimes contra a administração pública.",
+        "Regular apenas os processos judiciais no estado de Pernambuco."
+      ],
+      "resposta_correta": "Estabelecer normas básicas sobre o processo administrativo na Administração Pública Estadual de Pernambuco."
+    },
+    {
+      "id": 2,
+      "pergunta": "Para fins da Lei 11.781/2000, o que se entende por 'Órgão'?",
+      "alternativas": [
+        "A unidade de atuação dotada de personalidade jurídica.",
+        "A unidade de atuação integrante da estrutura da Administração direta e da estrutura da Administração indireta.",
+        "O agente público dotado de poder de decisão.",
+        "Qualquer empresa privada que preste serviços ao Estado."
+      ],
+      "resposta_correta": "A unidade de atuação integrante da estrutura da Administração direta e da estrutura da Administração indireta."
+    },
+    {
+      "id": 3,
+      "pergunta": "Qual destes princípios NÃO está expressamente previsto no art. 3º da Lei 11.781/2000?",
+      "alternativas": [
+        "Proporcionalidade.",
+        "Segurança Jurídica.",
+        "Soberania Nacional.",
+        "Moralidade."
+      ],
+      "resposta_correta": "Soberania Nacional."
+    },
+    {
+      "id": 4,
+      "pergunta": "Segundo a lei, a Administração Pública deve obedecer, entre outros, ao critério de 'atendimento a fins de interesse geral', sendo proibida:",
+      "alternativas": [
+        "A renúncia total de competência.",
+        "A motivação de atos administrativos.",
+        "A divulgação oficial dos atos administrativos.",
+        "A renúncia total ou parcial de poderes ou competências, salvo autorização em lei."
+      ],
+      "resposta_correta": "A renúncia total ou parcial de poderes ou competências, salvo autorização em lei."
+    },
+    {
+      "id": 5,
+      "pergunta": "É um direito do administrado perante a Administração Pública de Pernambuco:",
+      "alternativas": [
+        "Omitir fatos que sejam contrários ao seu interesse.",
+        "Ser tratado com urbanidade pelas autoridades e servidores.",
+        "Agir de má-fé para acelerar o processo.",
+        "Recusar-se a prestar informações solicitadas legalmente."
+      ],
+      "resposta_correta": "Ser tratado com urbanidade pelas autoridades e servidores."
+    },
+    {
+      "id": 6,
+      "pergunta": "Sobre o início do processo administrativo, a Lei 11.781/2000 estabelece que ele pode se dar:",
+      "alternativas": [
+        "Apenas mediante requerimento do interessado.",
+        "Exclusivamente por iniciativa da autoridade superior.",
+        "De ofício ou a pedido do interessado.",
+        "Apenas após autorização judicial."
+      ],
+      "resposta_correta": "De ofício ou a pedido do interessado."
+    },
+    {
+      "id": 7,
+      "pergunta": "Quanto à forma dos atos administrativos, a regra geral é que sejam escritos, em língua portuguesa, devendo conter:",
+      "alternativas": [
+        "A assinatura da autoridade, sendo dispensada a data.",
+        "A data e o local de sua realização e a assinatura da autoridade responsável.",
+        "Apenas o carimbo do órgão emissor.",
+        "A assinatura de pelo menos três testemunhas."
+      ],
+      "resposta_correta": "A data e o local de sua realização e a assinatura da autoridade responsável."
+    },
+    {
+      "id": 8,
+      "pergunta": "Em relação à competência administrativa, a Lei 11.781/2000 define que ela é:",
+      "alternativas": [
+        "Sempre delegável em sua totalidade.",
+        "Irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos.",
+        "Facultativa, dependendo da vontade do agente público.",
+        "Transferível permanentemente por meio de acordo verbal."
+      ],
+      "resposta_correta": "Irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos."
+    },
+    {
+      "id": 9,
+      "pergunta": "Um órgão administrativo e seu titular poderão delegar parte da sua competência a outros órgãos, ainda que estes não lhe sejam hierarquicamente subordinados, quando:",
+      "alternativas": [
+        "Houver conveniência de natureza técnica, social, econômica, jurídica ou territorial.",
+        "A autoridade estiver cansada ou em férias.",
+        "O processo for considerado muito simples.",
+        "Não houver previsão legal para o ato."
+      ],
+      "resposta_correta": "Houver conveniência de natureza técnica, social, econômica, jurídica ou territorial."
+    },
+    {
+      "id": 10,
+      "pergunta": "NÃO podem ser objeto de delegação, conforme o art. 13 da Lei:",
+      "alternativas": [
+        "Atos de gestão rotineira.",
+        "A edição de atos de caráter normativo.",
+        "A assinatura de editais de licitação.",
+        "O atendimento ao público."
+      ],
+      "resposta_correta": "A edição de atos de caráter normativo."
+    },
+    {
+      "id": 11,
+      "pergunta": "A avocação temporária de competência atribuída a órgão hierarquicamente inferior é permitida em caráter:",
+      "alternativas": [
+        "Ordinário e sem justificativa.",
+        "Excepcional e por motivos relevantes devidamente justificados.",
+        "Permanente, para extinguir o órgão inferior.",
+        "Sigiloso, para evitar questionamentos."
+      ],
+      "resposta_correta": "Excepcional e por motivos relevantes devidamente justificados."
+    },
+    {
+      "id": 12,
+      "pergunta": "É impedido de atuar em processo administrativo o servidor ou autoridade que:",
+      "alternativas": [
+        "Tenha amizade com o advogado da parte.",
+        "Tenha interesse direto ou indireto na matéria.",
+        "Seja de partido político oposto ao do interessado.",
+        "Tenha formação acadêmica diferente da exigida pelo cargo."
+      ],
+      "resposta_correta": "Tenha interesse direto ou indireto na matéria."
+    },
+    {
+      "id": 13,
+      "pergunta": "Pode ser arguida a suspeição de autoridade ou servidor que tenha:",
+      "alternativas": [
+        "Participado como perito em outro processo estranho à lide.",
+        "Amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.",
+        "Mais de 10 anos de serviço público.",
+        "Residência no mesmo município do interessado."
+      ],
+      "resposta_correta": "Amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau."
+    },
+    {
+      "id": 14,
+      "pergunta": "Os atos do processo devem realizar-se em dias úteis, no horário normal de funcionamento da repartição. Atos já iniciados:",
+      "alternativas": [
+        "Devem ser interrompidos imediatamente ao fim do horário de expediente.",
+        "Poderão ser concluídos depois do horário normal, se o adiamento prejudicar o curso regular do procedimento ou causar dano ao interessado ou à Administração.",
+        "Serão anulados se ultrapassarem o horário comercial.",
+        "Devem ser repetidos no dia seguinte."
+      ],
+      "resposta_correta": "Poderão ser concluídos depois do horário normal, se o adiamento prejudicar o curso regular do procedimento ou causar dano ao interessado ou à Administração."
+    },
+    {
+      "id": 15,
+      "pergunta": "Qual o prazo mínimo de antecedência para a intimação do interessado para o comparecimento a reuniões ou prática de atos?",
+      "alternativas": [
+        "24 horas.",
+        "2 dias úteis.",
+        "3 dias úteis.",
+        "5 dias corridos."
+      ],
+      "resposta_correta": "3 dias úteis."
+    },
+    {
+      "id": 16,
+      "pergunta": "O desatendimento da intimação pelo interessado implica em:",
+      "alternativas": [
+        "Confissão quanto aos fatos alegados pela Administração.",
+        "Reconhecimento da culpa.",
+        "Não importa o reconhecimento da verdade dos fatos, nem a renúncia a direito pelo interessado.",
+        "Extinção imediata e definitiva do processo sem julgamento de mérito."
+      ],
+      "resposta_correta": "Não importa o reconhecimento da verdade dos fatos, nem a renúncia a direito pelo interessado."
+    },
+    {
+      "id": 17,
+      "pergunta": "No que diz respeito à instrução do processo, cabe ao interessado:",
+      "alternativas": [
+        "Apenas assistir passivamente ao processo.",
+        "A prova dos fatos que tenha alegado, sem prejuízo do dever atribuído ao órgão competente para a instrução de ofício.",
+        "Produzir todas as provas, sendo vedado à Administração buscar provas novas.",
+        "Pagar as custas processuais para que o órgão inicie a instrução."
+      ],
+      "resposta_correta": "A prova dos fatos que tenha alegado, sem prejuízo do dever atribuído ao órgão competente para a instrução de ofício."
+    },
+    {
+      "id": 18,
+      "pergunta": "Quando dados ou documentos necessários à instrução do processo já se encontrarem no próprio órgão, a Administração:",
+      "alternativas": [
+        "Exigirá que o interessado os forneça novamente sob pena de preclusão.",
+        "Deverá providenciar, de ofício, a obtenção dos documentos ou das respectivas cópias.",
+        "Suspenderá o processo até que o interessado faça o pedido de desarquivamento.",
+        "Cobrará uma taxa extra para a busca interna de documentos."
+      ],
+      "resposta_correta": "Deverá providenciar, de ofício, a obtenção dos documentos ou das respectivas cópias."
+    },
+    {
+      "id": 19,
+      "pergunta": "Os elementos probatórios ilícitos são:",
+      "alternativas": [
+        "Aceitos se forem a única forma de provar a verdade.",
+        "Recusados mediante decisão fundamentada.",
+        "Admitidos apenas em processos disciplinares.",
+        "Guardados em envelope lacrado até o final do processo."
+      ],
+      "resposta_correta": "Recusados mediante decisão fundamentada."
+    },
+    {
+      "id": 20,
+      "pergunta": "Quando a lei não fixar prazo diferente, o parecer de um órgão consultivo deverá ser emitido no prazo de:",
+      "alternativas": [
+        "5 dias.",
+        "10 dias.",
+        "15 dias.",
+        "30 dias."
+      ],
+      "resposta_correta": "15 dias."
+    },
+    {
+      "id": 21,
+      "pergunta": "Encerrada a instrução, o interessado tem o direito de manifestar-se no prazo máximo de:",
+      "alternativas": [
+        "5 dias, salvo se outro prazo for fixado.",
+        "10 dias, salvo se outro prazo for fixado.",
+        "15 dias, impreterivelmente.",
+        "20 dias úteis."
+      ],
+      "resposta_correta": "10 dias, salvo se outro prazo for fixado."
+    },
+    {
+      "id": 22,
+      "pergunta": "A Administração tem o dever de emitir decisão nos processos administrativos e sobre solicitações ou reclamações, em que prazo, após concluída a instrução?",
+      "alternativas": [
+        "Até 15 dias.",
+        "Até 30 dias, salvo prorrogação por igual período expressamente motivada.",
+        "Até 60 dias, sem possibilidade de prorrogação.",
+        "Imediatamente."
+      ],
+      "resposta_correta": "Até 30 dias, salvo prorrogação por igual período expressamente motivada."
+    },
+    {
+      "id": 23,
+      "pergunta": "A motivação dos atos administrativos deve ser:",
+      "alternativas": [
+        "Apenas mental, não precisando constar no papel.",
+        "Explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres ou decisões.",
+        "Obrigatória apenas quando houver aplicação de multa.",
+        "Dispensada nos atos de anulação."
+      ],
+      "resposta_correta": "Explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres ou decisões."
+    },
+    {
+      "id": 24,
+      "pergunta": "Qual ato administrativo NÃO exige obrigatoriamente motivação?",
+      "alternativas": [
+        "O que negue direitos ou interesses.",
+        "O que decida recursos administrativos.",
+        "O que dispense ou declare a inexigibilidade de processo licitatório.",
+        "O ato de mero expediente que impulsione o processo sem decidir mérito."
+      ],
+      "resposta_correta": "O ato de mero expediente que impulsione o processo sem decidir mérito."
+    },
+    {
+      "id": 25,
+      "pergunta": "A Administração deve anular seus próprios atos quando:",
+      "alternativas": [
+        "Eles forem inconvenientes, por razões de mérito.",
+        "Eivados de vício de legalidade.",
+        "O interessado solicitar, mesmo que o ato seja legal.",
+        "Houver mudança de governo."
+      ],
+      "resposta_correta": "Eivados de vício de legalidade."
+    },
+    {
+      "id": 26,
+      "pergunta": "A Administração pode revogar seus próprios atos por motivo de:",
+      "alternativas": [
+        "Ilegalidade insanável.",
+        "Conveniência ou oportunidade, respeitados os direitos adquiridos.",
+        "Pressão popular, independentemente da lei.",
+        "Vontade subjetiva do secretário de estado."
+      ],
+      "resposta_correta": "Conveniência ou oportunidade, respeitados os direitos adquiridos."
+    },
+    {
+      "id": 27,
+      "pergunta": "O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em quanto tempo?",
+      "alternativas": [
+        "2 anos.",
+        "3 anos.",
+        "5 anos, salvo comprovada má-fé.",
+        "10 anos."
+      ],
+      "resposta_correta": "5 anos, salvo comprovada má-fé."
+    },
+    {
+      "id": 28,
+      "pergunta": "Em caso de efeitos patrimoniais contínuos, o prazo decadencial para anulação conta-se a partir:",
+      "alternativas": [
+        "Da data do primeiro pagamento.",
+        "Da data do último pagamento.",
+        "Da data em que a autoridade tomou conhecimento do erro.",
+        "Do trânsito em julgado de ação judicial correlata."
+      ],
+      "resposta_correta": "Da data do primeiro pagamento."
+    },
+    {
+      "id": 29,
+      "pergunta": "Atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração em decisão motivada, desde que:",
+      "alternativas": [
+        "O interessado pague uma multa.",
+        "Não acarretem lesão ao interesse público nem prejuízo a terceiros.",
+        "Sejam atos de caráter punitivo.",
+        "A convalidação seja feita por decreto do Governador."
+      ],
+      "resposta_correta": "Não acarretem lesão ao interesse público nem prejuízo a terceiros."
+    },
+    {
+      "id": 30,
+      "pergunta": "Das decisões administrativas cabe recurso, em face de razões de:",
+      "alternativas": [
+        "Apenas legalidade.",
+        "Apenas mérito.",
+        "Legalidade e de mérito.",
+        "Apenas quando houver erro de cálculo."
+      ],
+      "resposta_correta": "Legalidade e de mérito."
+    },
+    {
+      "id": 31,
+      "pergunta": "O recurso administrativo deve ser dirigido à autoridade que proferiu a decisão, a qual, se não a reconsiderar no prazo de 5 dias:",
+      "alternativas": [
+        "Arquivará o processo.",
+        "O encaminhará à autoridade superior.",
+        "Deverá anular a decisão anterior obrigatoriamente.",
+        "Solicitará a intervenção do Ministério Público."
+      ],
+      "resposta_correta": "O encaminhará à autoridade superior."
+    },
+    {
+      "id": 32,
+      "pergunta": "Salvo disposição legal específica, qual é o prazo para interpor recurso administrativo?",
+      "alternativas": [
+        "5 dias.",
+        "10 dias contados da ciência ou divulgação oficial da decisão.",
+        "15 dias úteis.",
+        "30 dias corridos."
+      ],
+      "resposta_correta": "10 dias contados da ciência ou divulgação oficial da decisão."
+    },
+    {
+      "id": 33,
+      "pergunta": "Quando a lei não fixar prazo diferente, o recurso administrativo deverá ser decidido no prazo máximo de:",
+      "alternativas": [
+        "15 dias.",
+        "30 dias, a partir do recebimento dos autos pelo órgão competente.",
+        "60 dias, prorrogáveis por mais 30.",
+        "90 dias."
+      ],
+      "resposta_correta": "30 dias, a partir do recebimento dos autos pelo órgão competente."
+    },
+    {
+      "id": 34,
+      "pergunta": "Como regra geral, o recurso administrativo possui efeito:",
+      "alternativas": [
+        "Suspensivo.",
+        "Apenas devolutivo.",
+        "Efeito de coisa julgada.",
+        "Interditório."
+      ],
+      "resposta_correta": "Apenas devolutivo."
+    },
+    {
+      "id": 35,
+      "pergunta": "O recurso NÃO será conhecido quando interposto:",
+      "alternativas": [
+        "Por advogado sem procuração.",
+        "Fora do prazo.",
+        "Em papel simples.",
+        "Contra autoridade de nível médio."
+      ],
+      "resposta_correta": "Fora do prazo."
+    },
+    {
+      "id": 36,
+      "pergunta": "A revisão de processos administrativos de que resultem sanções poderá ser requerida a qualquer tempo, quando surgirem:",
+      "alternativas": [
+        "Novos gestores no órgão.",
+        "Fatos novos ou circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada.",
+        "Interesses políticos divergentes.",
+        "Dúvidas sobre a interpretação da lei."
+      ],
+      "resposta_correta": "Fatos novos ou circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada."
+    },
+    {
+      "id": 37,
+      "pergunta": "Da revisão do processo administrativo, pode resultar agravamento da sanção?",
+      "alternativas": [
+        "Sim, sempre que a autoridade entender necessário.",
+        "Não, da revisão do processo não poderá resultar agravamento da sanção.",
+        "Sim, se o interessado agir com má-fé durante a revisão.",
+        "Somente se houver parecer favorável da Procuradoria."
+      ],
+      "resposta_correta": "Não, da revisão do processo não poderá resultar agravamento da sanção."
+    },
+    {
+      "id": 38,
+      "pergunta": "Na contagem de prazos processuais na Lei 11.781/2000:",
+      "alternativas": [
+        "Inclui-se o dia do começo e exclui-se o do vencimento.",
+        "Exclui-se o dia do começo e inclui-se o do vencimento.",
+        "Contam-se apenas os dias úteis em qualquer situação.",
+        "Os prazos são sempre contados em meses de 30 dias."
+      ],
+      "resposta_correta": "Exclui-se o dia do começo e inclui-se o do vencimento."
+    },
+    {
+      "id": 39,
+      "pergunta": "Os prazos fixados em meses ou anos contam-se:",
+      "alternativas": [
+        "De data a data.",
+        "Sempre como múltiplos de 30 dias.",
+        "Excluindo-se os feriados estaduais.",
+        "A partir do primeiro dia do mês subsequente."
+      ],
+      "resposta_correta": "De data a data."
+    },
+    {
+      "id": 40,
+      "pergunta": "As sanções administrativas, de acordo com a lei, devem ser aplicadas mediante:",
+      "alternativas": [
+        "Decisão verbal imediata.",
+        "Procedimento administrativo, assegurada ampla defesa.",
+        "Apenas após o trânsito em julgado na esfera criminal.",
+        "Citação por edital em todos os casos."
+      ],
+      "resposta_correta": "Procedimento administrativo, assegurada ampla defesa."
+    },
+    {
+      "id": 41,
+      "pergunta": "Terão prioridade na tramitação os procedimentos administrativos em que figure como parte ou interessado:",
+      "alternativas": [
+        "Pessoa com idade igual ou superior a 60 anos.",
+        "Qualquer servidor público estadual.",
+        "Empresas com sede no Recife.",
+        "Pessoas com ensino superior completo."
+      ],
+      "resposta_correta": "Pessoa com idade igual ou superior a 60 anos."
+    },
+    {
+      "id": 42,
+      "pergunta": "A prioridade na tramitação de processos para idosos ou pessoas com deficiência deve ser:",
+      "alternativas": [
+        "Concedida automaticamente pelo sistema.",
+        "Requerida pelo interessado à autoridade administrativa competente.",
+        "Dispensada se o processo for digital.",
+        "Aplicada apenas em processos de aposentadoria."
+      ],
+      "resposta_correta": "Requerida pelo interessado à autoridade administrativa competente."
+    },
+    {
+      "id": 43,
+      "pergunta": "O interessado pode desistir do pedido formulado ou renunciar a direitos disponíveis por meio de:",
+      "alternativas": [
+        "Manifestação escrita.",
+        "Ligação telefônica para o protocolo.",
+        "Abandono do processo por 10 dias.",
+        "Contratação de um novo advogado."
+      ],
+      "resposta_correta": "Manifestação escrita."
+    },
+    {
+      "id": 44,
+      "pergunta": "Se houver vários interessados em um processo com conteúdo idêntico, a desistência de um deles:",
+      "alternativas": [
+        "Prejudica o prosseguimento do processo para os demais.",
+        "Não prejudica o prosseguimento do processo quanto aos demais.",
+        "Obriga os demais a desistirem também.",
+        "Suspende o processo por 30 dias."
+      ],
+      "resposta_correta": "Não prejudica o prosseguimento do processo quanto aos demais."
+    },
+    {
+      "id": 45,
+      "pergunta": "O órgão instrutor que julgar necessária a prestação de informações pelos interessados poderá intimá-los. Se o interessado não atender em 5 dias:",
+      "alternativas": [
+        "O processo será arquivado imediatamente.",
+        "A Administração poderá suprir a omissão, mas o interessado perde o direito de produzir novas provas.",
+        "Poderá o órgão dar prosseguimento ao processo, sem prejuízo da responsabilidade do interessado pela omissão.",
+        "O interessado será preso por desobediência."
+      ],
+      "resposta_correta": "Poderá o órgão dar prosseguimento ao processo, sem prejuízo da responsabilidade do interessado pela omissão."
+    },
+    {
+      "id": 46,
+      "pergunta": "Considera-se 'Entidade', para fins da lei, a unidade de atuação dotada de:",
+      "alternativas": [
+        "Patrimônio próprio apenas.",
+        "Personalidade jurídica.",
+        "Autonomia política.",
+        "Sede própria na capital."
+      ],
+      "resposta_correta": "Personalidade jurídica."
+    },
+    {
+      "id": 47,
+      "pergunta": "Considera-se 'Autoridade', para fins da lei:",
+      "alternativas": [
+        "O servidor público ocupante de cargo efetivo sem função de chefia.",
+        "O servidor ou agente público dotado de poder de decisão.",
+        "Apenas o Governador do Estado.",
+        "Qualquer cidadão no exercício de seus direitos políticos."
+      ],
+      "resposta_correta": "O servidor ou agente público dotado de poder de decisão."
+    },
+    {
+      "id": 48,
+      "pergunta": "A Administração Pública Estadual pode declarar a nulidade de seus próprios atos, com efeitos retroativos, quando:",
+      "alternativas": [
+        "O ato foi praticado por autoridade competente mas é inoportuno.",
+        "O vício de legalidade for insanável.",
+        "Houver simples erro de digitação.",
+        "A pedido da oposição parlamentar."
+      ],
+      "resposta_correta": "O vício de legalidade for insanável."
+    },
+    {
+      "id": 49,
+      "pergunta": "Sobre a intimação por edital, ela é utilizada quando:",
+      "alternativas": [
+        "O interessado for uma autoridade pública.",
+        "Os interessados forem indeterminados, desconhecidos ou tiverem paradeiro indefinido.",
+        "O processo for considerado urgente.",
+        "A intimação postal for considerada muito cara."
+      ],
+      "resposta_correta": "Os interessados forem indeterminados, desconhecidos ou tiverem paradeiro indefinido."
+    },
+    {
+      "id": 50,
+      "pergunta": "A Lei 11.781/2000 aplica-se aos órgãos dos Poderes Legislativo e Judiciário do Estado, quando:",
+      "alternativas": [
+        "No exercício de suas funções jurisdicionais.",
+        "No desempenho de funções administrativas.",
+        "Em qualquer circunstância.",
+        "Apenas quando envolver gastos com pessoal."
+      ],
+      "resposta_correta": "No desempenho de funções administrativas."
+    }
+  ]
+}
