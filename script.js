@@ -1,4 +1,3 @@
-// Banco de dados de perguntas
 const quizData = [
     {
         question: "Qual é a capital do Brasil?",
